@@ -1,0 +1,47 @@
+gui:
+  theme:
+    activeBorderColor:
+      - "#cba6f7"
+      - bold
+    inactiveBorderColor:
+      - "#6c7086"
+    optionsTextColor:
+      - "#89b4fa"
+    selectedLineBgColor:
+      - "#313244"
+    cherryPickedCommitBgColor:
+      - "#45475a"
+    cherryPickedCommitFgColor:
+      - "#cba6f7"
+    unstagedChangesColor:
+      - "#f38ba8"
+    defaultFgColor:
+      - "#cdd6f4"
+    searchingActiveBorderColor:
+      - "#f9e2af"
+    authorColors:
+      "*": "#b4befe"
+  commitHashLength: 7
+  showDivergenceFromBaseBranch: arrowAndNumber
+  showNumstatInFilesView: true
+  mainPanelSplitMode: vertical
+  nerdFontsVersion: "3"
+  scrollHeight: 10
+  showIcons: true
+  branchColorPatterns:
+    "main$": "#a6e3a1"
+    "master$": "#a6e3a1"
+    "develop$": "#89b4fa"
+    "feat/.*": "#cba6f7"
+    "fix/.*": "#f38ba8"
+    "hotfix/.*": "#fab387"
+    "release/.*": "#94e2d5"
+git:
+  parseEmoji: true
+  diffRenderers:
+    - colorArg: always
+      command: delta --dark --paging=never
+  ignoreWhitespaceInDiffView: true
+disableStartupPopups: true
+notARepository: "quit"
+promptToReturnFromSubprocess: false
