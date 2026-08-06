@@ -1,0 +1,203 @@
+{
+  "workbench.startupEditor": "none",
+  "window.commandCenter": false,
+  "editor.minimap.enabled": false,
+  "explorer.autoOpenDroppedFile": false,
+  "workbench.sideBar.location": "right",
+  "workbench.activityBar.location": "bottom",
+  "editor.guides.bracketPairs": "active",
+  "editor.bracketPairColorization.enabled": true,
+  "editor.wordWrap": "on",
+  "editor.cursorSurroundingLines": 8,
+  "editor.cursorSmoothCaretAnimation": "on",
+  "explorer.compactFolders": false,
+  "editor.stickyScroll.enabled": false,
+  "breadcrumbs.enabled": false,
+  "editor.renderWhitespace": "none",
+  "editor.renderControlCharacters": false,
+  "editor.formatOnSave": true,
+  "editor.hover.sticky": false,
+  "editor.stickyScroll.scrollWithEditor": false,
+  "workbench.tree.enableStickyScroll": false,
+  "terminal.integrated.stickyScroll.enabled": false,
+  "editor.tabSize": 2,
+  "editor.fontFamily": "JetBrainsMono Nerd Font",
+  "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
+  "editor.fontWeight": "300",
+  "editor.lineNumbers": "relative",
+  "editor.fontLigatures": false,
+  "window.menuBarVisibility": "compact",
+  "workbench.enableExperiments": false,
+  "telemetry.telemetryLevel": "off",
+  "security.workspace.trust.untrustedFiles": "open",
+  "explorer.confirmDelete": false,
+  "chat.disableAIFeatures": true,
+  "explorer.confirmDragAndDrop": false,
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.colorTheme": "Tokyo Night",
+  "vim.easymotion": true,
+  "vim.incsearch": true,
+  "vim.useSystemClipboard": true,
+  "vim.useCtrlKeys": true,
+  "vim.hlsearch": true,
+  "vim.highlightedyank.textColor": "white",
+  "vim.highlightedyank.enable": true,
+  "vim.statusBarColorControl": false,
+  "vim.foldfix": true,
+  "vim.leader": "<space>",
+  "vim.handleKeys": {
+    "<C-a>": true,
+    "<C-f>": false,
+    "<C-s>": false,
+    "<C-z>": false,
+    "<C-d>": false
+  },
+  "vim.insertModeKeyBindingsNonRecursive": [
+    {
+      "before": ["<C-h>"],
+      "after": ["<Left>"]
+    },
+    {
+      "before": ["<C-l>"],
+      "after": ["<Right>"]
+    },
+    {
+      "before": ["<C-j>"],
+      "after": ["<Down>"]
+    },
+    {
+      "before": ["<C-k>"],
+      "after": ["<Up>"]
+    }
+  ],
+  "vim.insertModeKeyBindings": [
+    {
+      "before": ["j", "j"],
+      "after": ["<Esc>"]
+    }
+  ],
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": ["s"],
+      "commands": ["haru-flash.start"]
+    },
+    {
+      "before": ["S"],
+      "commands": ["haru-flash.startSelection"]
+    },
+    {
+      "before": ["<BS>"],
+      "commands": ["haru-flash.backspace"]
+    },
+    {
+      "before": ["<Tab>"],
+      "commands": ["workbench.action.nextEditor"]
+    },
+    {
+      "before": ["<S-Tab>"],
+      "commands": ["workbench.action.previousEditor"]
+    },
+    {
+      "before": ["<leader>", "g", "g"],
+      "commands": ["workbench.view.scm"]
+    },
+    {
+      "before": ["<C-a>"],
+      "after": ["g", "g", "V", "G"]
+    },
+    {
+      "before": ["<C-n>"],
+      "commands": [":nohl"]
+    },
+    {
+      "before": ["<C-y>"],
+      "commands": [":%y"]
+    },
+    {
+      "before": ["leader", "w"],
+      "commands": ["workbench.action.files.save"]
+    },
+    {
+      "before": ["z", "a"],
+      "commands": ["editor.toggleFold"]
+    },
+    {
+      "before": ["leader", "q"],
+      "commands": [":q"]
+    },
+    {
+      "before": ["<leader>", "/"],
+      "commands": ["workbench.action.findInFiles"]
+    },
+    {
+      "before": ["leader", "|"],
+      "commands": [":vsplit"]
+    },
+    {
+      "before": ["leader", "-"],
+      "commands": [":split"]
+    },
+    {
+      "before": ["g", "b"],
+      "commands": ["cursorHome"]
+    },
+    {
+      "before": ["g", "e"],
+      "commands": ["cursorEnd"]
+    },
+    {
+      "before": ["leader", "e"],
+      "commands": ["workbench.action.toggleSidebarVisibility"]
+    },
+    {
+      "before": ["leader", "f", "f"],
+      "commands": ["workbench.action.quickOpen"]
+    },
+    {
+      "before": ["<leader>", "f", "b"],
+      "commands": ["workbench.action.showAllEditors"]
+    },
+    {
+      "before": ["leader", "c", "f"],
+      "commands": ["editor.action.formatDocument"]
+    },
+    {
+      "before": ["leader", "h"],
+      "commands": ["workbench.action.focusLeftGroup"]
+    },
+    {
+      "before": ["leader", "j"],
+      "commands": ["workbench.action.focusBelowGroup"]
+    },
+    {
+      "before": ["leader", "k"],
+      "commands": ["workbench.action.focusAboveGroup"]
+    },
+    {
+      "before": ["leader", "l"],
+      "commands": ["workbench.action.focusRightGroup"]
+    },
+    {
+      "before": ["<leader>", "c", "a"],
+      "commands": ["editor.action.quickFix"]
+    }
+  ],
+  "vim.visualModeKeyBindings": [
+    {
+      "before": [">"],
+      "commands": ["editor.action.indentLines"]
+    },
+    {
+      "before": ["<"],
+      "commands": ["editor.action.outdentLines"]
+    },
+    {
+      "before": ["J"],
+      "commands": ["editor.action.moveLinesDownAction"]
+    },
+    {
+      "before": ["K"],
+      "commands": ["editor.action.moveLinesUpAction"]
+    }
+  ]
+}
