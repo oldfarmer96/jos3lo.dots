@@ -1,0 +1,16 @@
+gui:
+  border: "rounded"
+
+  theme:
+    activeBorderColor:
+      - "#cba6f7"
+      - bold
+
+    inactiveBorderColor:
+      - "#6c7086"
+
+    selectedLineBgColor:
+      - "#313244"
+
+    optionsTextColor:
+      - "#89b4fa"
